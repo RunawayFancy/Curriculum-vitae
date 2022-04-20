@@ -1,0 +1,214 @@
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItempro}[2]{
+  \item\small{
+    #1 #2
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      #3 & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\newcommand{\resumeSubItempro}[2]{\resumeItempro{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Jiheng Duan}} & Email: \href{mailto:}{gigi.duan@connect.um.edu.mo}\\
+%   \href{https://xprilion.com}{Portfolio: xprilion.com} & Mobile:~~~+91-XXX-XXXX-XXX \\
+  \href{https://github.com/RunawayFancy}{Github: ~~github.com/RunawayFancy} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Macau}{Macau, China}
+      {\textbf{Bachelor of Science}: Applied Physics and Chemistry (GPA: 3.4/4.0)}{Aug 2019 - Present}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Coursework:} Advanced Mathematics, Linear Algebra, Probability and Statistics, Differential Equations, Complex Analysis, Abstract Algebra, Classical Mechanics, Electromagnetism, Optics,  Analytic Mechanics, Quantum Mechanics, Electrodynamics, Thermodynamics and Statistical Mechanics, Solid State Physics, Semiconductor Physics, Micro-/Nano-Systems, Mathematical Physics, Inorganic Chemistry, Analytic Chemistry, Physical Chemistry}}}
+    \resumeSubHeadingListEnd
+	    
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{~~Research Interests}
+\resumeSubHeadingListStart
+\resumeSubItem{A Quantum Algorithm for Collision Inducing Disturbance Vectors in SHA-1(Quantum Algorithm, Disturbance Vectors, Collision Attack, SHA-1)}{(Work in progress) We proposed an algorithm that take advantage of entangled quantum states for concurrent seeding of candidate disturbance vectors, out of which the one entailing collision is selected through a combination of Grover's search, phase gate, and information feedbacks from classical computing machinery. We also demonstrate the practicality of the proposed by an implementation scheme based on degenerate optical parametric oscillator(Oct, 2021)}
+\vspace{2pt}
+\resumeSubItem{2000-Nodes Optimization: From the Ising Model to the MAX-CUT Problem by Employed the Simulated Annealing Algorithm and a Brief view of the Quantum Annealing Algorithm(Ising Model, Simulated Annealing, Quantum Annealing, Coherent Ising Machine)}{A summer research project focused on reviewing the application of applying the coherent Ising machine, simulated annealing(SA), and quantum annealing to solve combinatorial optimization problems. We compared the efficiency between homogeneous and inhomogeneous SA based on the logarithm annealing schedule. (Aug, 2021)}
+\vspace{2pt}
+\resumeSubItem{Strong Field Electromagnetically Induced Transparency Based on Coupled Flux Qubits(Strong Field EIT, Flux Qubit)}{(Work in progress) We Proposed a method using $\sigma_z$ coupled flux qubits to realize a strong field electromagnetically induced transparency. A method of diagonalization of the this kind of Hamiltonian is proposed with out using block diagonalization. (Nov, 2021)}
+\vspace{2pt}
+\resumeSubItem{A Brief Review of Quantum Sensors (Quantum Sensors, Qubits, Diamond N-V Center Defect Qubits, Magnetic Field Sensors)}{the undergraduate course Micro-/Nano-systems final report. We briefly introduce the fundamental conccepts of the mechanism of quantum sensors and qubit systems, including some examples of the setup of qubit systems and a realized magnetic field quantum sensor based on diamond nitrogen-vacancy center defects qubits. (Nov, 2021)}
+% \vspace{2pt}
+
+
+%-----------Awards-----------------
+\vspace{+5pt}
+\section{Honors and Awards}
+\begin{description}[font=$\bullet$]
+\item {Dean's Honour List - March, 2022/March, 2020}
+\vspace{-5pt}
+\item {RC Foundation Scholarship - Dec, 2020}
+\vspace{-5pt}
+\item {Third Prize, China Undergraduate Physics Tournament - Oct, 2020 }
+\vspace{-5pt}
+\item {Moon Chun Memorial College Blue - Oct, 2020}
+\vspace{-5pt}
+\item {Second Prize, National High School Mathematics League(Shandong, China) - Sept, 2018}
+\end{description}
+\resumeSubHeadingListEnd
+
+%-----------Publications-----------------
+\vspace{-5pt}
+\section{~~Publications}
+\resumeSubHeadingListStart
+\resumeSubItempro{\textbf{J. H. Duan}, M. H. Li, H. IAN, \textit{A Quantum Algorithm for Collision Inducing Disturbance Vectors in SHA-1} (in progress)}
+% \vspace{2pt}
+
+\vspace{+5pt}
+	    
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Technical Skills}{~~~~~~~~~~Python, C/C++, MATLAB, \LaTeX, Shell Bash/Zsh}
+	\resumeSubItem{Often-used Library}{~~~~\href{https://qutip.org/index.html}{QuTiP}, \href{https://github.com/OriginQ/QPanda-2}{QPanda}}
+	\resumeSubItem{Software Tools}{~~~~~~~~~~~COMSOL, Illustrator, ANSYS Electronic Desktop, Blender, Premiere Pro, After Effects, SPSS}
+	\resumeSubItem{Soft Skills}{~~~~~~~~~~~~~~~~~~Self-learning, Leadership, Event Management, Writing, Public Speaking, Time Management}
+
+\resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+
+\section{~~Experiences}
+  \resumeSubHeadingListStart
+    \resumeSubheading{Research Assistant - Institute of Applied Physics \& Materials Engineering}{Macau, China}
+    {14 hours per week}{Aug 2020 - Present}
+    \resumeItemListStart
+        \resumeItem{Supervisor}
+          {\href{https://iapme.um.edu.mo/people/academic-staff/ian-hou/}{Pro. Hou IAN}}
+          \resumeItem{Supervisor's Research Interets}
+          {Superconducting qubit circuits, quantum information and computation, quantum optics and quantum measurement theory.}
+          \resumeItem{Personal Works}{Regular physics self-learning with submitting reading notes to the supervisor weekly. Finished reading \textit{The Variational Principle of Mechanics} and \textit{Modern Quantum Mechanics}. Successfully accomplished summer research focusing on understanding and applying simulated annealing and quantum annealing algorithms on combinatorial optimization problems. Attend as a co-author with a graduate student for realizing strong field electromagnetically induced transparency based on coupled flux qubits. Start a personal project focused on designing a quantum algorithm for collision inducing disturbance vectors in SHA-1.}
+      \resumeItemListEnd
+
+\vspace{5pt}
+
+    \resumeSubheading
+	{Research Assistant - Institute of Applied Physics \& Materials Engineering}{Macau, China}
+	{7 hours per week}{Oct 2019 -  Aug 2020}
+	\resumeItemListStart
+        \resumeItem{Supervisor}
+          {\href{https://iapme.um.edu.mo/people/academic-staff/li-zongjin/}{Pro. Li Zongjin}}
+          \resumeItem{Supervisor's Research Interets}
+          {Durability of concrete, carbon nanotubes, graphene, 2D materials, Fibre reinforced concrete, fracture of concrete, nondestructive testing in civil engineering, development of advanced building products using extrusion technique, functional materials in civil engineering.}
+          \resumeItem{Personal Works}{Finished the strength, ductility and physical properties tests of improved magnesium sulfate concretes under the guidance of graduate students and \href{https://iapme.um.edu.mo/people/academic-staff/sun-guoxing/}{Pro. Guoxing Sun}.}
+      \resumeItemListEnd
+
+\vspace{5pt}
+
+    \resumeSubheading
+		{Residential Assistant - Moon Chun Memorial College}{Macau, China}
+		{6 hours per week}{Aug 2020 - May 2021}
+		\resumeItemListStart
+        \resumeItem{Personal works}{Residential area management, leading the college community to participate in events and activities, proposing and organizing educational activities, and organizing the freshman orientation.}
+		\resumeItemListEnd
+	
+		\vspace{5pt}
+
+    \resumeSubheading
+		{Monitor - Department of Physics and Chemistry, University of Macau}{Macau, China}
+		{6 hours per week}{Aug 2019 - Present}
+		\resumeItemListStart
+        \resumeItem{Personal Works}{Associating students, helping the department to organize activities.}
+        \resumeItem{Additional Works}
+          {Organizing a team for attending the 2020 China Undergraduate Physics Tournament.}
+		\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}
+\section{~~Other Experiences}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+    {Young Scientist Participant in the Hong Kong Laureate Forum}{Hong Kong, China}
+    {Participant in the forum on astronomy and mathematical science.}{Feb 2022 - Present}
+\vspace{5pt}
+    % \vspace{10pt}\textbf{\large{Community Experience}}
+    \resumeSubheading
+    {The Organizer of the Seminar of Physics in the University of Macau}{Macau, China}
+    {An in-official organization holding lectures related to physics and mathematics.}{March 2022 - Present}
+\vspace{5pt}
+    \resumeSubheading
+    {Member of the University of Macau Swimming Team}{Macau, China}
+    {Attending local swimming competitions and awards several awards.}{Sept 2019 - Sept 2022}
+
+\resumeSubHeadingListEnd
+
+\end{document}
