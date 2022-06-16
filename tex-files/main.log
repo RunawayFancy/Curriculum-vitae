@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.10.15)  3 JUN 2022 23:16
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.10.15)  17 JUN 2022 01:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -267,9 +267,9 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 106.
+(Font)              <9> on input line 112.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 106.
+(Font)              <6> on input line 112.
 
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -280,12 +280,12 @@ This may cause the page layout to be inconsistent, however.
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 212.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 220.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -295,7 +295,7 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  8924728CED102038A457902F2B3DDCF8;398.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
  ) 
 Here is how much of TeX's memory you used:
  9347 strings out of 479418
