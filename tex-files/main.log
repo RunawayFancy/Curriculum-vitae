@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.10.15)  17 JUN 2022 01:22
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.10.15)  15 AUG 2022 22:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -280,12 +280,12 @@ This may cause the page layout to be inconsistent, however.
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 220.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 222.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -295,7 +295,7 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  8924728CED102038A457902F2B3DDCF8;398.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
  ) 
 Here is how much of TeX's memory you used:
  9347 strings out of 479418
@@ -304,6 +304,6 @@ Here is how much of TeX's memory you used:
  26752 multiletter control sequences out of 15000+600000
  535171 words of font info for 51 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 34i,11n,48p,686b,563s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,11n,48p,686b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (2 pages).
